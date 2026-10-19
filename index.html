@@ -258,6 +258,7 @@ footer p{font:400 12px/1.5 var(--mono);opacity:.7;max-width:none}
 </head><body>
 </head><body>
 </head><body>
+</head><body>
 <header class="hero">
   <div class="pat" aria-hidden="true"></div>
   <div class="wrap">
@@ -409,9 +410,9 @@ section,[id]{scroll-margin-top:24px}
 .rs-g path,.rs-sp path{fill:none;stroke:#2EE6FF;stroke-width:1.2;vector-effect:non-scaling-stroke}
 .rs-g rect{fill:none;stroke:#2EE6FF;stroke-width:1.2;vector-effect:non-scaling-stroke}
 .rs.g-grid .rs-g,.rs.g-spiral .rs-sp{opacity:.9}
-.rs-s{position:absolute;width:var(--s);height:auto;opacity:0;transition:opacity .3s}
+.rs-s{position:absolute;width:var(--s);height:var(--s);object-fit:contain;opacity:0;transition:opacity .3s}
 .rs.g-grid .rs-s{opacity:1}
-.rs-s.tl{left:0;top:0;transform:translate(-50%,-50%)}.rs-s.tr{right:0;top:0;transform:translate(50%,-50%)}.rs-s.bl{left:0;bottom:0;transform:translate(-50%,50%)}.rs-s.br{right:0;bottom:0;transform:translate(50%,50%)}
+.rs-s.tl{left:calc(-1*var(--s));top:calc(-1*var(--s))}.rs-s.tr{right:calc(-1*var(--s));top:calc(-1*var(--s))}.rs-s.bl{left:calc(-1*var(--s));bottom:calc(-1*var(--s))}.rs-s.br{right:calc(-1*var(--s));bottom:calc(-1*var(--s))}
 .rs-box{position:absolute;border:1px solid #2EE6FF;opacity:0;transition:opacity .3s;pointer-events:none}
 .rs-box i{position:absolute;left:-1px;top:-1.9cqw;font:500 .95cqw/1.4cqw var(--mono);letter-spacing:.1em;text-transform:uppercase;color:#141414;background:#2EE6FF;padding:0 .6cqw;font-style:normal}
 .rs.g-boxes .rs-box{opacity:1}
@@ -465,7 +466,7 @@ section,[id]{scroll-margin-top:24px}
     </div>
   </div><div class="mb-base"></div></div></div>
   <div class="rs-notes">
-    <div><span class="mono">Rand</span><b>Rand = S der Wortmarke</b><p>Das Maß ist das erste S aus dem SANNIS-Logo, so groß wie die Wortmarke rechts unten steht. Dieses S ist der Abstand vom Rand zu Schrift und Logo, an allen vier Seiten gleich und in den Ecken eingeblendet. Im Rand steht nichts.</p></div>
+    <div><span class="mono">Rand</span><b>Rand = S der Wortmarke</b><p>Das Maß ist das erste S aus dem SANNIS-Logo, so groß wie die Wortmarke rechts unten steht. Dieses S ist der Abstand vom Rand zu Schrift und Logo, an allen vier Seiten gleich. In den Ecken sitzt es im Randquadrat zwischen Bildschirmrand und Raster. Im Rand steht nichts.</p></div>
     <div><span class="mono">Teilung</span><b>Goldener Schnitt</b><p>Die Innenfläche teilt sich 61,8 zu 38,2. Links das große Quadrat für die Headline, rechts die Spirale, die beim Absender ausläuft.</p></div>
     <div><span class="mono">Anordnung</span><b>Drei Positionen</b><p>Headline oben links an der Rasterkante. Claim unten links auf der Kante. Absender unten rechts, senkrecht: erst SANNIS, darüber Lebensfreude / Made in Austria.</p></div>
     <div><span class="mono">Formate</span><b>Andere Formate</b><p>Hochformat 4:5, A4 und Messe folgen demselben Prinzip: Rand = S der Wortmarke, Fläche im Goldenen Schnitt, Headline im großen Feld. Die Teilung je Format legt Harald fest.</p></div>
@@ -955,6 +956,7 @@ Negative: no text, no generated logos or lettering, no stock-photo smiles, no st
 
   <p class="note">Konzept-Mockups zur Orientierung, keine Druckdaten. Druckdaten und finale Gestaltung: Harald. KI-Antworten nur aus freigegebenem Wissen (Claims-Check), keine Gesundheitsaussagen. Adressen, Kundennummer und UID sind Platzhalter.</p>
 </div></section>
+
 
 
 
