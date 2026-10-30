@@ -1,6 +1,6 @@
 # SANNIS Newsletter · Brevo-Vorlage · Einbau
 
-Stand 29.10.2026 · Quelle: SANNIS Style Guide 2026, Kapitel 12 „Newsletter“. Ansprechpartner: Manuel Kössler (SANNIS Marketing).
+Stand 30.10.2026 · Quelle: SANNIS Style Guide 2026, Kapitel 12 „Newsletter“. Ansprechpartner: Manuel Kössler (SANNIS Marketing).
 
 ## Was das ist
 Die Monats-Newsletter-Vorlage als Tabellen-HTML (600 px, mobil responsiv, Outlook-sicher) mit den neun Modulen aus dem Style Guide:

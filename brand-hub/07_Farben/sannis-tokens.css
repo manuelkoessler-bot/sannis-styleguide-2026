@@ -1,0 +1,15 @@
+:root{
+  --violet:#442769;    /* Violett, Markenfarbe (Wortmarke, Flächen, Web) */
+  --electric:#9D44DC;  /* Electric Violet, Akzent, Buttons, Links */
+  --lavender:#C99BF0;  /* Lavendel, Labels und Eyebrows auf Dunkel */
+  --hair:#C7C0D2;      /* Haarlinie */
+  --lilac:#BFB2CC;     /* Flieder, Nebenfläche */
+  --ultra:#363DD6;     /* Ultramarin, nur im Verlauf / Signet */
+  --sky:#3699FF;       /* Leinblüten-Blau, nur im Verlauf */
+  --ice:#FAFBFF;       /* Eisweiß, Seitenhintergrund */
+  --ink:#141414;       /* Schwarz für Text und dunkle Kapitel */
+  --gold:#E9B824;      /* Gold, nur im Bild (Öl) */
+  --stone:#8E8B94;     /* Stein, Nebentext */
+}
+/* Weitere Werte von Harald (zur Freigabe, siehe Style Guide): Icon/Stripe #402866, Stripe-Accent #914AD4,
+   Brief-Akzente #432667 (RGB 67/38/103), Argument-Icons #48246B, Kombi-Lockup #3D2667. */
