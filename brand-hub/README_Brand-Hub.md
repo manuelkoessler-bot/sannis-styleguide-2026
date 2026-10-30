@@ -12,5 +12,6 @@ Ein Ordner mit allen Marken-Dateien für Team, Agentur (Lang Consulting) und Par
 | 06_Schriften_Web | ITC Avant Garde Gothic Pro als WOFF2 (nur SANNIS) |
 | 07_Farben | CSS-Tokens und Tabelle |
 | 08_Code-Pakete | Links zu Produktseite, Pillar Page, Newsletter |
+| 09_Markentexte | Haralds Texte und Headlines (30.10.2026): Zielbild, Formel, Leitbild, The Pure, Headline-Pool, Leinöl-Historie mit Claims-Hinweis |
 
 Quelle und Pflege: Projektordner `Pillar_Bio-Leinoel/` (tools/brand_hub.py), Original-Lieferungen von Harald Klüh im Drive „Logos & Branding“. Nicht weitergeben, nur für die Umsetzung für SANNIS.
